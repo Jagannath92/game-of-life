@@ -211,8 +211,6 @@
                 <url>http://172.31.28.107:8081/artifactory/libs-snapshot-local</url>
             </snapshotRepository>
         </distributionManagement>
-        
-    
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
