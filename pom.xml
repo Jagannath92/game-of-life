@@ -206,11 +206,11 @@
         </dependency>
     </dependencies>
         <distributionManagement>
-            <repository>
-                <id>central</id>
-                <name>ip-172-31-16-167-releases</name>
-                <url>http://18.219.128.208:8082/artifactory/libs-release</url>
-            </repository>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <name>ip-172-31-16-167-snapshots</name>
+                <url>http://18.219.128.208:8081/artifactory/libs-snapshot-local</url>
+            </snapshotRepository>
         </distributionManagement>
     
     <modules>
