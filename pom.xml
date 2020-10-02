@@ -209,7 +209,7 @@
             <repository>
                 <id>central</id>
                 <name>ip-172-31-16-167-releases</name>
-                <url>http://18.219.128.208:8081/artifactory/libs-release</url>
+                <url>http://172.31.16.167:8081/artifactory/libs-release</url>
             </repository>
         </distributionManagement>
     
