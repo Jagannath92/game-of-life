@@ -205,13 +205,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>ip-172-31-16-167-snapshots</name>
-            <url>http://18.219.128.208:8081/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
+
     
     <modules>
         <module>gameoflife-build</module>
