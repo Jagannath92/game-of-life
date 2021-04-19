@@ -205,7 +205,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>ip-172-31-5-238-releases</name>
+            <url>http://172.31.5.238:8081/artifactory/Maven3-libs-release-local</url>
+        </repository>
+    </distributionManagement>
     
     <modules>
         <module>gameoflife-build</module>
